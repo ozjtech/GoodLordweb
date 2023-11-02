@@ -1,0 +1,47 @@
+body {
+    background-color: #D9B295; /* Replace with the path to your popcorn texture image */
+    background-size: 100px; /* Adjust the size of the popcorn pattern as needed */
+    background-repeat: repeat;
+    font-family: anonymous;
+}
+
+links {
+    text-decoration-color: #DFF6F1;
+}
+
+
+/* Styles for the dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #FF6501;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FF6501;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: 
+    #5C815C;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Style for the arrow */
+.dropbtn:after {
+    content: "▼";
+    margin-left: 5px;
+}
